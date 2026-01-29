@@ -58,7 +58,7 @@ MainFrame::MainFrame()
 
     /* �Ѵ��ڽ��� AUI �������������ȣ� */
     m_auiMgr.SetManagedWindow(this);
-
+    m_auiMgr.SetFlags(wxAUI_MGR_DEFAULT | wxAUI_MGR_LIVE_RESIZE);
 
     /* �������뻭�����ȿհ�ռλ�� */
     m_canvas = new CanvasPanel(this, wxGetDisplaySize().x, wxGetDisplaySize().y);
