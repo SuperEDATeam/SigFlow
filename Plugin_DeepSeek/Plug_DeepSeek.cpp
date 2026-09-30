@@ -35,7 +35,7 @@ wxDEFINE_EVENT(EVT_AI_RESPONSE, wxThreadEvent);
 
 
 Plug_DeepSeek::Plug_DeepSeek() {
-    m_apiKey = "sk-8801be45326a4776ac37f3b120ee1888"; // 实际开发建议从配置文件读取
+    m_apiKey = "sk-kfcthursdayvme50"; // 实际开发建议从配置文件读取
     m_apiUrl = "https://api.deepseek.com/chat/completions";
     m_projectRoot = "";
 
